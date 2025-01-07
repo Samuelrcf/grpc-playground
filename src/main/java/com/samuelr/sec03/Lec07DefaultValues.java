@@ -7,7 +7,7 @@ import com.samuelr.models.sec03.School;
 
 public class Lec07DefaultValues {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(Lec01Scalar.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(Lec07DefaultValues.class);
 	
 	public static void main(String[] args) {
 		var school = School.newBuilder().build();
