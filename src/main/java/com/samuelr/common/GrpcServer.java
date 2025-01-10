@@ -6,8 +6,6 @@ import java.util.Arrays;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.samuelr.sec01.SimpleProtoDemo;
-
 import io.grpc.BindableService;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
@@ -16,7 +14,7 @@ import io.grpc.ServiceDescriptor;
 
 public class GrpcServer {
 	
-	private static final Logger LOGGER = LoggerFactory.getLogger(SimpleProtoDemo.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(GrpcServer.class);
 
 	private final Server server;
 	
